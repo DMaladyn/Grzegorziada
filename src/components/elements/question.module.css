@@ -1,0 +1,25 @@
+.container {
+  text-align: center;
+}
+
+.question {
+  margin: 3vw;
+  font-size: 4vh;
+}
+
+.category {
+  margin: 2vw;
+  font-size: 3.5vh;
+}
+
+.link {
+  margin: 2vw;
+  font-size: 4vh;
+}
+
+.answer {
+  margin: 2vw;
+  font-size: 4vh;
+  font-weight: bold;
+  color: rgb(6, 117, 21);
+}
