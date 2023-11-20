@@ -1,7 +1,7 @@
 header {
   width: 100vw;
   display: flex;
-  background-color: #e75ff3;
+  background-color: rgb(201, 191, 191);
   align-items: center;
   justify-content: space-between;
   height: 6.5vh;
@@ -26,11 +26,13 @@ header li:nth-child(odd) {
   width: 20vw;
   font-size: 4vh;
   color: red;
+  font-family: cursive, sans-serif;
 }
 header li:nth-child(2) {
   width: 60vw;
   font-size: 4vh;
-  background: -webkit-linear-gradient(#eee, #333);
+  font-family: cursive, sans-serif;
+  background: -webkit-linear-gradient(#b37b7b, #333);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

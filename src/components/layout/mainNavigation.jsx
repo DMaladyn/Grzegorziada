@@ -8,28 +8,15 @@ function MainNavigation() {
     <header className={classes.header}>
       <ul>
         <li>
-          <Link to="/">Etap I</Link>
+          <Link to="/grzegorziada">Etap I</Link>
         </li>
         <li>
-          <Link to="/">GRZEGORZIADA</Link>
+          <Link to="/grzegorziada">GRZEGORZIADA</Link>
         </li>
         <li>
-          <Link to="/final">Finał</Link>
+          <Link to="/grzegorziada/final">Finał</Link>
         </li>
       </ul>
-      {/* <Link to="/Quick-Read" className={classes.logo}>
-        Quick Read
-      </Link>
-      <div className={classes.links}>
-        <ul>
-          <li>
-            <Link to="/pyramid">Pyramid</Link>
-          </li>
-          <li>
-            <Link to="/table">Table</Link>
-          </li>
-        </ul>
-      </div> */}
     </header>
   );
 }

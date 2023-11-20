@@ -28,7 +28,7 @@ function App() {
       pytanie: "jaki kolor ma krzysztof",
       kategoria: "tim",
       odpowiedz: "zloty",
-      link: "https://www.youtube.com/watch?v=WM7Se7iS7is",
+      link: "https://www.youtube.com/embed/WM7Se7iS7is?start=164",
     },
   };
   const dataA4a = {
@@ -48,7 +48,7 @@ function App() {
       pytanie: "jaki kolor ma discorddddddddddddddddddddddddddd ddddddddddd",
       kategoria: "socialmedia",
       odpowiedz: "szary",
-      link: "https://www.youtube.com/watch?v=msnZaDlBb3Q",
+      link: "https://www.youtube.com/embed/msnZaDlBb3Q?start=164",
     },
   };
 
@@ -70,8 +70,8 @@ function App() {
     <>
       <Layout>
         <Routes>
-          <Route path="/" element={<A4A />} />
-          <Route path="/Final" element={<Final />} />
+          <Route path="/grzegorziada" element={<A4A />} />
+          <Route path="/grzegorziada/final" element={<Final />} />
         </Routes>
       </Layout>
       {/* <div>

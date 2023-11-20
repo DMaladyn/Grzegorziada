@@ -1,14 +1,21 @@
+import { useState } from "react";
+
 import classes from "./question.module.css";
+import audioR from "../../assets/right.mp3";
+import audioW from "../../assets/wrong.mp3";
+import audioS from "../../assets/swap.mp3";
 
 function Question(props) {
-  let data = JSON.parse(localStorage.getItem("data" + props.category));
+  const [data, setData] = useState(
+    JSON.parse(localStorage.getItem("data" + props.category))
+  );
   let keys = Object.keys(data);
   let randomKey = keys[Math.floor(Math.random() * keys.length)];
 
-  const question = data[randomKey].pytanie;
-  const category = data[randomKey].kategoria;
-  const answer = data[randomKey].odpowiedz;
-  const link = data[randomKey].link;
+  let question = data[randomKey].pytanie;
+  let category = data[randomKey].kategoria;
+  let answer = data[randomKey].odpowiedz;
+  let link = data[randomKey].link;
 
   delete data[randomKey];
 
@@ -21,21 +28,44 @@ function Question(props) {
     localStorage.setItem("data" + props.category, JSON.stringify(data));
   }
 
+  let audioRight = new Audio(audioR);
+  let audioWrong = new Audio(audioW);
+  let audioSwap = new Audio(audioS);
+
+  const playRight = () => {
+    audioRight.play();
+  };
+
+  const playWrong = () => {
+    audioWrong.play();
+  };
+
+  const playSwap = () => {
+    audioSwap.play();
+  };
+
+  function reroll() {
+    playSwap();
+    setData(JSON.parse(localStorage.getItem("data" + props.category)));
+  }
+
   return (
     <div className={classes.container}>
       <div className={classes.question}>Pytanie: {question}</div>
       <div className={classes.category}>Kategoria: {category}</div>
-      {link ? (
-        <a
-          className={classes.link}
-          href={link}
-          target="_blank"
-          rel="noreferrer"
-        >
-          {link}
-        </a>
-      ) : null}
+      {link ? <iframe width="420" height="315" src={link}></iframe> : null}
       <div className={classes.answer}>Odpowiedz: {answer}</div>
+      <div className={classes.buttons}>
+        <button className={classes.wrong} onClick={() => playWrong()}>
+          ŹLE
+        </button>
+        <button className={classes.reroll} onClick={() => reroll()}>
+          Nowe Pytanie
+        </button>
+        <button className={classes.right} onClick={() => playRight()}>
+          DOBRZE
+        </button>
+      </div>
     </div>
   );
 }
