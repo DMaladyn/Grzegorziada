@@ -53,7 +53,7 @@ function Question(props) {
     <div className={classes.container}>
       <div className={classes.question}>Pytanie: {question}</div>
       <div className={classes.category}>Kategoria: {category}</div>
-      {link ? <iframe width="420" height="315" src={link}></iframe> : null}
+      {link ? <iframe allowFullScreen src={link}></iframe> : null}
       <div className={classes.answer}>Odpowiedz: {answer}</div>
       <div className={classes.buttons}>
         <button className={classes.wrong} onClick={() => playWrong()}>

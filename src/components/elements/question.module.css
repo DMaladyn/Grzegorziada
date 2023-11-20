@@ -6,6 +6,8 @@
   margin: 3vw;
   font-size: 4vh;
   font-family: cursive, sans-serif;
+  white-space: initial;
+  overflow: hidden;
 }
 
 .category {
@@ -25,12 +27,21 @@
   font-weight: bold;
   color: rgb(6, 117, 21);
   font-family: cursive, sans-serif;
+  white-space: initial;
+  overflow: hidden;
+}
+
+iframe {
+  width: 80vw;
+  height: 30vh;
+  max-width: 480px;
+  max-height: 270px;
 }
 
 .buttons {
   position: fixed;
   height: 10%;
-  top: 90%;
+  bottom: 0%;
   right: 8px;
   width: calc(100% + 8px);
   display: grid;
@@ -38,9 +49,16 @@
 }
 
 .buttons button {
-  font-size: 40px;
+  font-size: 5vw;
+  max-font-size: 5vw;
   font-weight: bold;
   font-family: cursive, sans-serif;
+}
+
+@media screen and (min-width: 1200px) {
+  .buttons button {
+    font-size: 60px;
+  }
 }
 
 .wrong {
