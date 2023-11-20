@@ -70,8 +70,8 @@ function App() {
     <>
       <Layout>
         <Routes>
-          <Route path="/grzegorzada" element={<A4A />} />
-          <Route path="/grzegorzada/final" element={<Final />} />
+          <Route path="/grzegorziada" element={<A4A />} />
+          <Route path="/grzegorziada/final" element={<Final />} />
         </Routes>
       </Layout>
       {/* <div>

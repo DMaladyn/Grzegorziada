@@ -8,13 +8,13 @@ function MainNavigation() {
     <header className={classes.header}>
       <ul>
         <li>
-          <Link to="/grzegorzada">Etap I</Link>
+          <Link to="/grzegorziada">Etap I</Link>
         </li>
         <li>
-          <Link to="/grzegorzada">GRZEGORZADA</Link>
+          <Link to="/grzegorziada">GRZEGORZIADA</Link>
         </li>
         <li>
-          <Link to="/grzegorzada/final">Finał</Link>
+          <Link to="/grzegorziada/final">Finał</Link>
         </li>
       </ul>
     </header>
