@@ -11,7 +11,7 @@ function MainNavigation() {
           <Link to="/grzegorziada">Etap I</Link>
         </li>
         <li>
-          <Link to="/grzegorziada">GRZEGORZIADA</Link>
+          <Link to="/grzegorziada">GRZEGORZADA</Link>
         </li>
         <li>
           <Link to="/grzegorziada/final">Finał</Link>
