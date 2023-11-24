@@ -15,7 +15,7 @@ function App() {
     0: {
       pytanie: "Jaki kolor ma papiesz",
       kategoria: "kultura",
-      odpowiedz: "żółty",
+      odpowiedz: "fioletowy",
     },
 
     1: {
