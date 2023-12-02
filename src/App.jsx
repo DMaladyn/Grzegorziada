@@ -13,23 +13,247 @@ function App() {
   //const [count, setCount] = useState(0);
   const dataFinal = {
     0: {
-      pytanie: "Jaki kolor ma papiesz",
-      kategoria: "kultura",
-      odpowiedz: "fioletowy",
+      pytanie: "ile certyfikatów posiada główny protagonista jestem hardkorem?",
+      kategoria: "memy",
+      odpowiedz: "cztery",
     },
 
     1: {
-      pytanie: "jaki kolor miała kurtka najmana",
+      pytanie: "W jakiej miejscowości dzieje się akcja Ale urwał?",
       kategoria: "memy",
-      odpowiedz: "niebieski",
+      odpowiedz: "Szczecin",
     },
 
     2: {
-      pytanie: "jaki kolor ma krzysztof",
-      kategoria: "tim",
-      odpowiedz: "zloty",
-      link: "https://www.youtube.com/embed/WM7Se7iS7is?start=164",
+      pytanie: "Z jakim środkiem alkoholowym mierzył się Poziomka13 w swoim debiucie w Internecie?",
+      kategoria: "memy",
+      odpowiedz: "Denaturat",
     },
+    
+    3: {
+      pytanie: "PYTANIE OBRAZKOWE Jaki gest wykonał Wojciech Cejrowski na tym nagraniu?",
+      kategoria: "memy",
+      odpowiedz: "Swastyka, hinduski symbol szczęścia",
+      link: "https://www.youtube.com/embed/V_PgKNS0mAI?start=2"
+    },
+    
+    4: {
+    pytanie: "Z jakiego działu matematycznego poradnik nagrał Testoviron?",
+    kategoria: "memy",
+    odpowiedz: "Całki, analiza matematyczna",
+    },
+
+    5: {
+    pytanie: "Kto powiedział to by nic nie dało nie dałoby nic",
+    kategoria: "sławni polacy",
+    odpowiedz: "Mariusz Pudzianowski",
+    },
+    
+    6: {
+    pytanie: "Z jakiego przedmiotu szkolnego, prowadzi szkolenia Matemaks?",
+    kategoria: "sławni polacy",
+    odpowiedz: "matematyka",
+    },
+
+    7: {
+    pytanie: "W którym roku miał miejsce pierwszy sylwester z Andrzejem Dudą na Facebooku?",
+    kategoria: "sławni polacy",
+    odpowiedz: "2016",
+    },
+
+    8: {
+    pytanie: "W wywiadzie dla radia PolskaLive, ile łyżeczek cukru wsypał do herbaty Janusz Korwin-Mikke? Możesz pomylić się o 1",
+    kategoria: "sławni polacy",
+    odpowiedz: "10",
+    },
+
+    9: {
+    pytanie: "W którym roku Musical.ly został wykupione przez TikToka?",
+    kategoria: "Internet",
+    odpowiedz: "2017",
+    },
+
+    10: {
+    pytanie: "Do kogo należy seria Masochista?",
+    kategoria: "Internet",
+    odpowiedz: "Mietczyński",
+    },
+
+    11: {
+    pytanie: "Kto ma więcej subskrypcji na YT? Blowek czy Friz",
+    kategoria: "Internet",
+    odpowiedz: "Friz, ma 5,11 mln a Blowek 5,07",
+    },
+
+    12: {
+    pytanie: "Jak nazywa się talk-show prowadzone przez Tomasza Gimpera Działowego w latach 2017-2019?",
+    kategoria: "Internet",
+    odpowiedz: "Lekko nie będzie",
+    },
+
+    13: {
+    pytanie: "Jak nazywał się Książulo zanim zmienił swój nick?",
+    kategoria: "Internet",
+    odpowiedz: "KolorowyVlog",
+    },
+
+    14: {
+    pytanie: "W filmie AiO Misja Kleopatra (2002) według Marnypopisa bez jakiego elementu nie będzie pałacu?",
+    kategoria: "kultura",
+    odpowiedz: "bez budulca i pałacu",
+    },
+
+    15: {
+    pytanie: "PYTANIE MUZYCZNE Z jakiego filmu pochodzi ten utwór?",
+    kategoria: "kultura",
+    odpowiedz: "Vabank, Vabank 2 czyli riposta",
+    link: "https://www.youtube.com/embed/Fx_68kFo9Po?start=21"
+    },
+    
+    16: {
+    pytanie: "W piosence braci Golec, co będzie stało w miejscu kretowiska?",
+    kategoria: "kultura",
+    odpowiedz: "Bank",
+    },
+
+    17: {
+    pytanie: "Wymień 2 głównych protagonistów Zwariowanych Melodii",
+    kategoria: "kultura",
+    odpowiedz: "Kaczor Daffy i królik Bugs",
+    },
+
+    18: {
+    pytanie: "Gdzie był zatrudniony Fred Flinstone, główny bohater kreskówki Flinstonowie?",
+    kategoria: "kultura",
+    odpowiedz: "W kamieniołomie",
+    },
+
+    19: {
+    pytanie: "Jak nazywał się program wsparcia finansowego żuli postulowany przez Stanisława Żółtka w wyborach w 2020r?",
+    kategoria: "sławni polacy",
+    odpowiedz: "Menelowe+",
+    },
+
+    20: {
+    pytanie: "",
+    kategoria: "",
+    odpowiedz: "",
+    },
+
+    21: {
+    pytanie: "",
+    kategoria: "",
+    odpowiedz: "",
+    },
+
+    22: {
+    pytanie: "",
+    kategoria: "",
+    odpowiedz: "",
+    },
+
+    23: {
+    pytanie: "",
+    kategoria: "",
+    odpowiedz: "",
+    },
+
+    24: {
+    pytanie: "",
+    kategoria: "",
+    odpowiedz: "",
+    },
+
+    25: {
+    pytanie: "",
+    kategoria: "",
+    odpowiedz: "",
+    },
+
+    26: {
+    pytanie: "",
+    kategoria: "",
+    odpowiedz: "",
+    },
+
+    27: {
+    pytanie: "",
+    kategoria: "",
+    odpowiedz: "",
+    },
+
+    28: {
+    pytanie: "",
+    kategoria: "",
+    odpowiedz: "",
+    },
+
+    29: {
+    pytanie: "",
+    kategoria: "",
+    odpowiedz: "",
+    },
+
+    30: {
+    pytanie: "",
+    kategoria: "",
+    odpowiedz: "",
+    },
+
+    31: {
+    pytanie: "",
+    kategoria: "",
+    odpowiedz: "",
+    },
+
+    32: {
+    pytanie: "",
+    kategoria: "",
+    odpowiedz: "",
+    },
+
+    33: {
+    pytanie: "",
+    kategoria: "",
+    odpowiedz: "",
+    },
+
+    34: {
+    pytanie: "",
+    kategoria: "",
+    odpowiedz: "",
+    },
+
+    35: {
+    pytanie: "",
+    kategoria: "",
+    odpowiedz: "",
+    },
+
+    36: {
+    pytanie: "",
+    kategoria: "",
+    odpowiedz: "",
+    },
+
+    37: {
+    pytanie: "",
+    kategoria: "",
+    odpowiedz: "",
+    },
+
+    38: {
+    pytanie: "",
+    kategoria: "",
+    odpowiedz: "",
+    },
+
+    39: {
+    pytanie: "",
+    kategoria: "",
+    odpowiedz: "",
+    },
+    
   };
   const dataA4a = {
     0: {
