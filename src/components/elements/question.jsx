@@ -17,6 +17,8 @@ function Question(props) {
   let answer = data[randomKey].odpowiedz;
   let link = data[randomKey].link;
 
+  let remaining = keys.length - 1;
+
   delete data[randomKey];
 
   if (Object.keys(data).length === 0) {
@@ -55,6 +57,7 @@ function Question(props) {
       <div className={classes.category}>Kategoria: {category}</div>
       {link ? <iframe allowFullScreen src={link}></iframe> : null}
       <div className={classes.answer}>Odpowiedz: {answer}</div>
+      <div className={classes.remaining}>Pozostało: {remaining}</div>
       <div className={classes.buttons}>
         <button className={classes.wrong} onClick={() => playWrong()}>
           ŹLE
