@@ -133,6 +133,129 @@ function App() {
     kategoria: "sławni polacy",
     odpowiedz: "Menelowe+",
     },
+    
+    20: {
+    pytanie: "PYTANIE MUZYCZNE [do 8s] Zgodnie z tą piosenką, jaka była cena mistrzostwa Polski w PN?",
+    kategoria: "memy",
+    odpowiedz: "Ząb",
+    link: "https://www.youtube.com/embed/ZHuUcaw4Yz4?start=0"
+    },
+
+    21: {
+    pytanie: "PYTANIE OBRAZKOWE Jak nazywa się ta grafika?",
+    kategoria: "memy",
+    odpowiedz: "Cenzopapa",
+    link: "https://www.youtube.com/embed/5Uio3mIvoCg?start=2"
+    },
+
+    22: {
+    pytanie: "Do kogo zwracał się Kamil Durczok w studiu Faktów, odnośnie upierdolonego stołu?",
+    kategoria: "memy",
+    odpowiedz: "Rurku",
+    },
+
+    23: {
+    pytanie: "PYTANIE OBRAZKOWE Jak nazywa się ten pan?",
+    kategoria: "memy",
+    odpowiedz: "Jerzy Urban",
+    link: "https://www.youtube.com/embed/fL7S7KfV3KQ?start=0"
+    },
+
+    24: {
+    pytanie: "Ile czasu na opuszczenie domu miała pani, która w rozmowie telefonicznej usłyszała że w jej domu jest bomba? Możesz pomylić się o godzinę",
+    kategoria: "memy",
+    odpowiedz: "3 godziny",
+    },
+
+    25: {
+    pytanie: "W jakiej miejscowości na urząd prezydenta miasta kandydował Krzysztof Kononowicz",
+    kategoria: "sławni polacy",
+    odpowiedz: "Białystok",
+    },
+
+    26: {
+    pytanie: "Według Janusza Korwin-Mikkego, jakie zwierzęta żyją na dnie rowu Mariańskiego?",
+    kategoria: "sławni polacy",
+    odpowiedz: "rurkowce",
+    },
+
+    27: {
+    pytanie: "Według Ewy Kopacz, w bardzo dawnych czasach, czym ludzie bronili się przed dinozaurami?",
+    kategoria: "sławni polacy",
+    odpowiedz: "kamieniami",
+    },
+
+    28: {
+    pytanie: "Ile lat ma Remigiusz Maciaszek znany pod pseudonimem Rock/RockAlone2k, możesz pomylić się o 3 lata",
+    kategoria: "sławni polacy",
+    odpowiedz: "46",
+    },
+
+    29: {
+    pytanie: "Ile razy Polacy wygrali MŚ w piłce nożnej mężczyzn?",
+    kategoria: "sławni polacy",
+    odpowiedz: "Zero",
+    },
+
+    30: {
+    pytanie: "Jakiej firmy była paczka żelków w paście Chcecie schudnąć, jedzcie żelki?",
+    kategoria: "Internet",
+    odpowiedz: "haribo",
+    },
+
+    31: {
+    pytanie: "Ile trwała pasta dziennik bułgarskiego ninja? możesz pomylić się o 5 dni",
+    kategoria: "Internet",
+    odpowiedz: "58",
+    },
+
+    32: {
+    pytanie: "Pasta Mój stary to fanatyk leczo, jest prequelem czy sequelem do fanatyka wędkarstwa?",
+    kategoria: "Internet",
+    odpowiedz: "prequelem",
+    },
+
+    33: {
+    pytanie: "Jak nazywał się serwer minecraft dla YT-berów założony w 2012 roku przez SKKF-a?",
+    kategoria: "Internet",
+    odpowiedz: "Kwadratowa Masakra",
+    },
+
+    34: {
+    pytanie: "Kto ustanowił rekord polskiego Twitcha mając jednocześnie na strimie ponad 190k widzów?",
+    kategoria: "Internet",
+    odpowiedz: "Marcin Xayoo Majkut",
+    },
+
+    35: {
+    pytanie: "Jakimi gatunkami zwierząt byli Timon i Pumba z króla lwa?",
+    kategoria: "kultura",
+    odpowiedz: "Surykatka i guziec",
+    },
+
+    36: {
+    pytanie: "Jaki aktor wciela się w Nicka Furiego w Marvel Cinematic Universe?",
+    kategoria: "kultura",
+    odpowiedz: "Samuel L. Jackson",
+    },
+
+    37: {
+    pytanie: "Przed wymiarem sprawiedliwości jakiego kraju musiał ukrywać się Skipper z Pingwinów z Madagaskaru?",
+    kategoria: "kultura",
+    odpowiedz: "Dania",
+    },
+
+    38: {
+    pytanie: "Blok ekipa ma więcej czy mniej niż 300 odcinków?",
+    kategoria: "kultura",
+    odpowiedz: "Mniej",
+    },
+
+    39: {
+    pytanie: "Jak nazywało się królestwo, którym rządzili rodzicie Fiony w Shreku 2?",
+    kategoria: "kultura",
+    odpowiedz: "Zasiedmiogórogród",
+    },
 
   };
   const dataA4a = {
