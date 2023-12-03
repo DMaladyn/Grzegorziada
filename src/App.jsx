@@ -446,9 +446,9 @@ function App() {
     },
 
     29: {
-    pytanie: "PYTANIE OBRAZKOWE [10s] Komu jest dedykowany ten film?",
+    pytanie: "PYTANIE OBRAZKOWE Ile wycisnął km/h Malina jadąc firmowym samochodem?",
     kategoria: "memy",
-    odpowiedz: "Karolinie",
+    odpowiedz: "210",
     link: "https://www.youtube.com/embed/awaKDdwxu44?start=0",
     },
 
@@ -1065,9 +1065,58 @@ function App() {
     },
 
     131: {
-    pytanie: "",
-    kategoria: "",
-    odpowiedz: "",
+    pytanie: "Z jakich animacji jest znany kanał Alan Becker?",
+    kategoria: "Internet",
+    odpowiedz: "animation vs minecraft/vs animator [stickman]",
+    },
+
+    132: {
+    pytanie: "Jaki film na YT posiada najwięcej wyświetleń",
+    kategoria: "Internet",
+    odpowiedz: "Baby Shark Dance ponad 13 mld wyświetleń",
+    },
+
+    133: {
+    pytanie: "Podaj nazwę strony internetowej do hostowania plików, której maskotką jest chomik",
+    kategoria: "Internet",
+    odpowiedz: "chomikuj",
+    },
+
+    134: {
+    pytanie: "PYTANIE OBRAZKOWE Jaki sprzęt uległ awarii w tym nagraniu?",
+    kategoria: "memy",
+    odpowiedz: "Odtwarzacz płyt Dvd/wideo",
+    link: "https://www.youtube.com/embed/faAgXWCbI00?start=5",
+    },
+
+    135: {
+    pytanie: "Co było przyczyną nieudanego skoku kaskaderskiego Pawła Jumpera?",
+    kategoria: "memy",
+    odpowiedz: "kierownica",
+    },
+
+    136: {
+    pytanie: "Jakiej sztuki walki był mistrzem Mistrz Motyl z serii Mistrz Motyl",
+    kategoria: "Internet",
+    odpowiedz: "Dotyk Motyla",
+    },
+
+    137: {
+    pytanie: "W którym roku zamknięto serwis Nasza Klasa?",
+    kategoria: "Internet",
+    odpowiedz: "2021",
+    },
+
+    138: {
+    pytanie: "Ile razy Jan Paweł 2 odwiedził Polskę w trakcie pielgrzymki?",
+    kategoria: "sławni polacy",
+    odpowiedz: "8",
+    },
+
+    139: {
+    pytanie: "Podaj numer zaświadczenia jakie musieli zdobyć Asterix i Obelix w filmie 12 prac Asterixa",
+    kategoria: "kultura",
+    odpowiedz: "A-38",
     },
   };
 
