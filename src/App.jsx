@@ -306,7 +306,7 @@ function App() {
     7: {
     pytanie: "Do którego piętra wspiął się protagonista filmu jestem hardkorem?",
     kategoria: "memy",
-    odpowiedz: "do pierwszego",
+    odpowiedz: "do drugiego",
     },
 
     8: {
@@ -833,211 +833,242 @@ function App() {
     odpowiedz: "4",
     },
 
-    92: {
+    93: {
     pytanie: "Ile sezonów ma gra o tron?",
     kategoria: "kultura",
     odpowiedz: "8",
     },
 
-    93: {
+    94: {
     pytanie: "Jak nazywa się aktorka wcielająca się w rolę Denerys Tangarien w GoT?",
     kategoria: "kultura",
     odpowiedz: "Emilia Clarke",
     },
 
-    94: {
+    95: {
     pytanie: "Przez kogo został założony amatorski zespół filmowy Skurcz",
     kategoria: "kultura",
     odpowiedz: "Bartosz Walaszek",
     },
 
-    95: {
+    96: {
     pytanie: "Co ceni najbardziej w życiu Otis z filmu AiO Misja Kleopatra?",
     kategoria: "kultura",
     odpowiedz: "Ludzi",
     },
 
-    96: {
+    97: {
     pytanie: "Z jakiego kraju pochodzą takie kreskówki jak Sąsiedzi, Krecik czy bajki z mchu i paproci?",
     kategoria: "kultura",
     odpowiedz: "Czechy/Czechosłowacja",
     },
 
-    97: {
+    98: {
     pytanie: "W której części Kevina samego w domu wystąpiło cameo Donalda Trumpa?",
     kategoria: "kultura",
     odpowiedz: "Kevin sam w NY",
     },
 
-    98: {
+    99: {
     pytanie: "Jaka jest ulubiona potrawa Po z Kung Fu Pandy?",
     kategoria: "kultura",
     odpowiedz: "kluski",
     },
 
-    99: {
+    100: {
     pytanie: "Jakim gatunkiem zwierzęcia był dr Bulgot - największy wróg pingwinów z madagaskaru",
     kategoria: "kultura",
     odpowiedz: "delfin",
     },
 
-    100: {
+    101: {
     pytanie: "Czy Jacek Soplica i Ksiądz Robak to ta samam osoba?",
     kategoria: "kultura",
     odpowiedz: "tak",
     },
 
-    101: {
+    102: {
     pytanie: "Według Rickiego z chłopaków z baraków, na czym polega odpowiedzialność?",
     kategoria: "kultura",
     odpowiedz: "na wstawaniu rano po zachlanej nocy",
     },
 
-    102: {
+    103: {
     pytanie: "Jaki zawód wykonywał Karol Krawczyk, jeden z głównych bohaterów Miodowych Lat?",
     kategoria: "kultura",
     odpowiedz: "Motorniczy tramwaju",
     },
 
-    103: {
+    104: {
     pytanie: "Gdzie odbywała się główna akcja serialu Ucho prezesa?",
     kategoria: "kultura",
     odpowiedz: "W gabinecie prezesa na nowogrodzkiej",
     },
 
-    104: {
+    105: {
     pytanie: "Podaj tytuł serialu, którego głównym antagonistą jest Janusz Tracz",
     kategoria: "kultura",
     odpowiedz: "Plebania",
     },
 
-    105: {
+    106: {
     pytanie: "Odmianę jakiego czasownika angielskiego ćwiczył Adam Miaczyński z swoim synem w Dniu Świra?",
     kategoria: "kultura",
     odpowiedz: "Być, to be",
     },
 
-    106: {
+    107: {
     pytanie: "Z jakiego filmu pochodzi piosenka miłość rośnie wokół nas",
     kategoria: "kultura",
     odpowiedz: "król lew",
     },
 
-    107: {
+    108: {
     pytanie: "Jak nazywał się startowy pokemon Asha Ketchuma, którego otrzymał od prof. Oaka/Dębu",
     kategoria: "kultura",
     odpowiedz: "Pikachu",
     },
 
-    108: {
+    109: {
     pytanie: "Ile synów miała matka w piosence radiotelegrafisty w 13-posterunku?",
     kategoria: "kultura",
     odpowiedz: "Trzech",
     },
 
-    109: {
+    110: {
     pytanie: "Jak miała na imię ukochana Stanisława Wokulskiego w powieści Lalka?",
     kategoria: "kultura",
     odpowiedz: "Izabela Łęcka",
     },
 
-    110: {
+    111: {
     pytanie: "Kto skomponował muzykę do takich filmów jak Indiana Jones, Gwiezdne Wojny, Park Jurajski czy Piraci z Karaibów?",
     kategoria: "kultura",
     odpowiedz: "John Wiliams",
     },
 
-    111: {
+    112: {
     pytanie: "Jak nazywał się dziobak z kreskówki Fineasz i Ferb?",
     kategoria: "kultura",
     odpowiedz: "Pepe Pan Dziobak",
     },
 
-    112: {
+    113: {
     pytanie: "Który z reżyserów: Stanisław Bareja czy Juliusz Machulski zrealizował takie filmy jak Seksmisja czy Vabank?",
     kategoria: "kultura",
     odpowiedz: "Juliusz Machulski",
     },
 
-    113: {
-    pytanie: "",
-    kategoria: "",
-    odpowiedz: "",
-    },
-
-    113: {
-    pytanie: "",
-    kategoria: "",
-    odpowiedz: "",
-    },
-
     114: {
-    pytanie: "",
-    kategoria: "",
-    odpowiedz: "",
+    pytanie: "Według Martiego z Madagaskaru, który to jest kontynent? [6s]",
+    kategoria: "kultura",
+    odpowiedz: "Manhattan",
+    link: "https://www.youtube.com/embed/_AVbRClk3HY?start=0",
     },
 
     115: {
-    pytanie: "",
-    kategoria: "",
-    odpowiedz: "",
+    pytanie: "Jak nazywała się poboczna bohaterka pingwinów z madagaskaru, która była wydrą?",
+    kategoria: "kultura",
+    odpowiedz: "Marlenka",
     },
 
     116: {
-    pytanie: "",
-    kategoria: "",
-    odpowiedz: "",
+    pytanie: "Podaj tytuł najpopularniejszego klipu z monologiem skryby z AiO Misja Kleopatra",
+    kategoria: "memy",
+    odpowiedz: "Idealna matura ustna z języka polskiego",
     },
 
     117: {
-    pytanie: "",
-    kategoria: "",
-    odpowiedz: "",
+    pytanie: "W filmie AiO Misja Kleopatra, jak inaczej została nazwana winda?",
+    kategoria: "kultura",
+    odpowiedz: "dźwig bezwysiłkowy",
     },
 
     118: {
-    pytanie: "",
-    kategoria: "",
-    odpowiedz: "",
+    pytanie: "Na jakiej piosence z telewizji był wzorowany film parabole tańczą?",
+    kategoria: "memy",
+    odpowiedz: "Chrześcijanin tańczy",
     },
 
     119: {
-    pytanie: "",
-    kategoria: "",
-    odpowiedz: "",
+    pytanie: "Ile przypinek posiadał Jjayjoker na swoim kapeluszu?",
+    kategoria: "Internet",
+    odpowiedz: "2",
     },
 
     120: {
-    pytanie: "",
-    kategoria: "",
-    odpowiedz: "",
+    pytanie: "W której edycji Tańca z Gwiazdami wziął udział Gimper?",
+    kategoria: "Internet",
+    odpowiedz: "9",
     },
 
     121: {
-    pytanie: "",
-    kategoria: "",
-    odpowiedz: "",
+    pytanie: "W którym roku miała miejsce bitwa pod Empikiem na Marszu Niepodległości w Warszawie?",
+    kategoria: "sławni polacy",
+    odpowiedz: "2020",
     },
 
     122: {
-    pytanie: "",
-    kategoria: "",
-    odpowiedz: "",
+    pytanie: "PYTANIE OBRAZKOWE Gdzie spędził wakacje ten pan?",
+    kategoria: "memy",
+    odpowiedz: "W mieście",
+    link: "https://www.youtube.com/embed/P-dW2lsR3bY?start=0",
     },
 
     123: {
-    pytanie: "",
-    kategoria: "",
-    odpowiedz: "",
+    pytanie: "Podaj nazwę kanału CTSG, który skupiał się na grze Minecraft",
+    kategoria: "Internet",
+    odpowiedz: "MinecraftPl",
     },
 
     124: {
+    pytanie: "Kto jest odpowiedzialny za takie serie jak cichy żart czy cichy żarcik?",
+    kategoria: "Internet",
+    odpowiedz: "CichyWuj",
+    },
+
+    125: {
+    pytanie: "Jaki film na YT posiada najwięcej dislikeów?",
+    kategoria: "Internet",
+    odpowiedz: "YT Rewind 2018",
+    },
+
+    126: {
+    pytanie: "Ile sezonów ma South Park? Możesz pomylić się o 2",
+    kategoria: "kultura",
+    odpowiedz: "26",
+    },
+
+    127: {
+    pytanie: "Jak nazywała się sowiecka wersja Toma i Jerrego?",
+    kategoria: "kultura",
+    odpowiedz: "Wilk i Zając",
+    },
+
+    128: {
+    pytanie: "Podaj nazwę firmy, która miała pozwać Piotra Ogińskiego z kanału Kocham Gotować w 2013",
+    kategoria: "Internet",
+    odpowiedz: "Sokołów",
+    },
+
+    129: {
+    pytanie: "PYTANIE OBRAZKOWE Jak nazywa się ten pan?",
+    kategoria: "memy",
+    odpowiedz: "Stachu Jones",
+    link: "https://www.youtube.com/embed/_3JXCiWVCcg?start=0"
+    },
+
+    130: {
+    pytanie: "Podaj nazwę jednego gatunku kosmitów z serialu Kapitan Bomba",
+    kategoria: "kultura",
+    odpowiedz: "kurvinox, dodupyzaur, skurwol, chujew, c'qrwozaur, zdupydomordyzaur, skurwywij, kurwaczerw, kutanoid",
+    },
+
+    131: {
     pytanie: "",
     kategoria: "",
     odpowiedz: "",
     },
-
-    
   };
 
   if (!localStorage.getItem("dataFinal")) {
